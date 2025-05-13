@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "openvoice-cli"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
   { name="daswer123", email="daswerq123@gmail.com" },
 ]
@@ -18,9 +18,9 @@ classifiers = [
 ]
 
 dependencies = [
-  "librosa==0.9.1",
-  "pydub==0.25.1",
-  "wavmark==0.0.3",
+  "librosa>=0.9.1",
+  "pydub>=0.25.1",
+  "wavmark>=0.0.3",
   "faster-whisper>=0.9.0",
   "whisper-timestamped>=1.14.2",
   "torch>=1.13.1",
