@@ -18,15 +18,16 @@ classifiers = [
 ]
 
 dependencies = [
-  "librosa>=0.9.1",
+  "librosa",
   "pydub>=0.25.1",
   "wavmark>=0.0.3",
   "faster-whisper>=0.9.0",
   "whisper-timestamped>=1.14.2",
-  "torch>=1.13.1",
-  "torchaudio>=0.13.1",
+  "torch>=2.4.0",
+  "torchaudio>=2.4.0",
   "typing-extensions>=4.6.1",
-  "numpy>1.24.2"
+  "numpy>=1.24.2",
+  "transformers>=4.51.3"
 ]
 
 [project.urls]
